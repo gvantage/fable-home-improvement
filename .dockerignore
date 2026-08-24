@@ -1,0 +1,15 @@
+.venv
+.env
+.env.*
+__pycache__
+*.pyc
+.DS_Store
+.claude
+.vscode
+temp
+web/node_modules
+web/dist
+*.log
+*.xlsx
+*.pem
+*.key

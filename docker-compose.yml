@@ -1,0 +1,13 @@
+name: fable-home-improvement
+
+services:
+  app:
+    build: .
+    ports:
+      - "8000:8000"
+    env_file:
+      - path: .env
+        required: false
+    volumes:
+      - ./wiki:/app/wiki
+      - ./data:/app/data

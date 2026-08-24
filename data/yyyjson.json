@@ -1,0 +1,292 @@
+{
+  "装修公司（半包）": [
+    {
+      "name": "装修公司",
+      "unit": "项",
+      "price": 0,
+      "quantity": 1
+    },
+    {
+      "name": "垃圾清运",
+      "unit": "项",
+      "price": 0,
+      "quantity": 1
+    },
+    {
+      "name": "设计费",
+      "unit": "项",
+      "price": 0,
+      "quantity": 1
+    }
+  ],
+  "全房主材": [
+    {
+      "name": "开关插座",
+      "unit": "个",
+      "price": 0,
+      "quantity": 0
+    },
+    {
+      "name": "背胶",
+      "unit": "桶",
+      "price": 0,
+      "quantity": 0
+    },
+    {
+      "name": "PU线条和灯盘",
+      "unit": "项",
+      "price": 0,
+      "quantity": 0
+    },
+    {
+      "name": "全屋瓷砖",
+      "unit": "块",
+      "price": 0,
+      "quantity": 0
+    },
+    {
+      "name": "入户门+智能锁",
+      "unit": "套",
+      "price": 0,
+      "quantity": 0
+    },
+    {
+      "name": "室内门",
+      "unit": "套",
+      "price": 0,
+      "quantity": 0
+    },
+    {
+      "name": "空开漏保",
+      "unit": "项",
+      "price": 0,
+      "quantity": 0
+    },
+    {
+      "name": "美缝",
+      "unit": "项",
+      "price": 0,
+      "quantity": 0
+    },
+    {
+      "name": "全屋定制",
+      "unit": "项",
+      "price": 0,
+      "quantity": 0
+    },
+    {
+      "name": "踢脚线",
+      "unit": "米",
+      "price": 0,
+      "quantity": 0
+    },
+    {
+      "name": "灯具",
+      "unit": "套",
+      "price": 0,
+      "quantity": 0
+    },
+    {
+      "name": "窗帘",
+      "unit": "套",
+      "price": 0,
+      "quantity": 0
+    }
+  ],
+  "厨房": [
+    {
+      "name": "橱柜",
+      "unit": "套",
+      "price": 0,
+      "quantity": 0
+    },
+    {
+      "name": "不锈钢水槽",
+      "unit": "个",
+      "price": 0,
+      "quantity": 0
+    },
+    {
+      "name": "水龙头",
+      "unit": "个",
+      "price": 0,
+      "quantity": 0
+    },
+    {
+      "name": "集成吊顶",
+      "unit": "㎡",
+      "price": 0,
+      "quantity": 0
+    },
+    {
+      "name": "挂件类",
+      "unit": "套",
+      "price": 0,
+      "quantity": 0
+    },
+    {
+      "name": "厨房电器",
+      "unit": "套",
+      "price": 0,
+      "quantity": 0
+    }
+  ],
+  "卫生间": [
+    {
+      "name": "集成吊顶",
+      "unit": "㎡",
+      "price": 0,
+      "quantity": 0
+    },
+    {
+      "name": "浴霸",
+      "unit": "个",
+      "price": 300,
+      "quantity": 2
+    },
+    {
+      "name": "浴室柜",
+      "unit": "个",
+      "price": 500,
+      "quantity": 2
+    },
+    {
+      "name": "面盆龙头",
+      "unit": "个",
+      "price": 0,
+      "quantity": 0
+    },
+    {
+      "name": "马桶",
+      "unit": "个",
+      "price": 0,
+      "quantity": 0
+    },
+    {
+      "name": "淋浴花洒套装",
+      "unit": "套",
+      "price": 0,
+      "quantity": 0
+    },
+    {
+      "name": "淋浴隔断",
+      "unit": "套",
+      "price": 0,
+      "quantity": 0
+    },
+    {
+      "name": "地漏",
+      "unit": "个",
+      "price": 0,
+      "quantity": 0
+    },
+    {
+      "name": "角阀",
+      "unit": "个",
+      "price": 0,
+      "quantity": 0
+    }
+  ],
+  "阳台": [
+    {
+      "name": "阳台晾衣架",
+      "unit": "套",
+      "price": 0,
+      "quantity": 0
+    },
+    {
+      "name": "洗衣机龙头",
+      "unit": "个",
+      "price": 0,
+      "quantity": 0
+    },
+    {
+      "name": "阳台洗衣柜",
+      "unit": "套",
+      "price": 0,
+      "quantity": 0
+    },
+    {
+      "name": "封阳台",
+      "unit": "㎡",
+      "price": 0,
+      "quantity": 0
+    }
+  ],
+  "客厅": [
+    {
+      "name": "沙发",
+      "unit": "套",
+      "price": 0,
+      "quantity": 0
+    },
+    {
+      "name": "茶几",
+      "unit": "个",
+      "price": 0,
+      "quantity": 0
+    },
+    {
+      "name": "电视柜",
+      "unit": "个",
+      "price": 600,
+      "quantity": 2
+    },
+    {
+      "name": "吊灯",
+      "unit": "个",
+      "price": 0,
+      "quantity": 0
+    },
+    {
+      "name": "电视",
+      "unit": "台",
+      "price": 0,
+      "quantity": 0
+    },
+    {
+      "name": "空调",
+      "unit": "台",
+      "price": 0,
+      "quantity": 0
+    }
+  ],
+  "卧室": [
+    {
+      "name": "床",
+      "unit": "张",
+      "price": 0,
+      "quantity": 0
+    },
+    {
+      "name": "床垫",
+      "unit": "个",
+      "price": 0,
+      "quantity": 0
+    },
+    {
+      "name": "衣柜",
+      "unit": "个",
+      "price": 0,
+      "quantity": 0
+    },
+    {
+      "name": "床头柜",
+      "unit": "个",
+      "price": 0,
+      "quantity": 0
+    },
+    {
+      "name": "梳妆台",
+      "unit": "套",
+      "price": 0,
+      "quantity": 0
+    },
+    {
+      "name": "空调",
+      "unit": "台",
+      "price": 0,
+      "quantity": 0
+    }
+  ]
+}
