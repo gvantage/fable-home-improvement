@@ -7,7 +7,10 @@
   --color-muted: #6f675e;
   --color-copper: #b85c38;
   --color-copper-dark: #9a4a2c;
+  --color-slate: #1e5a96;
+  --color-slate-dark: #164575;
   --color-wash: #efe6d6;
+  --color-pane: #e8dfcc;
   --font-sans: "Noto Sans SC", "PingFang SC", "Hiragino Sans GB", sans-serif;
   --font-serif: "Noto Serif SC", "Songti SC", serif;
   --font-mono: "IBM Plex Mono", ui-monospace, monospace;
@@ -29,6 +32,22 @@ body {
 }
 
 ::selection {
+  background: color-mix(in srgb, var(--color-copper) 22%, var(--color-paper));
+}
+
+.theme-wiki {
+  --color-paper: #c9d9ea;
+  --color-ink: #1a2d42;
+  --color-rule: #a9c0d6;
+  --color-muted: #4a6178;
+  --color-copper: #1e5a96;
+  --color-copper-dark: #164575;
+  --color-wash: #b7cce0;
+  background: var(--color-paper);
+  color: var(--color-ink);
+}
+
+.theme-wiki ::selection {
   background: color-mix(in srgb, var(--color-copper) 22%, var(--color-paper));
 }
 

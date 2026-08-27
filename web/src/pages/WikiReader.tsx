@@ -57,7 +57,7 @@ export function WikiReader() {
             {page.links.map((link) =>
               link.exists ? (
                 <li key={link.slug}>
-                  <Link className="cursor-pointer text-copper hover:text-copper-dark" to={`/wiki/${link.slug}`}>
+                  <Link className="cursor-pointer text-slate hover:text-slate-dark" to={`/wiki/${link.slug}`}>
                     {link.title}
                   </Link>
                 </li>

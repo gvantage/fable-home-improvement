@@ -29,6 +29,8 @@ def _friendly_error(exc: Exception, api_key: str = "") -> str:
         return "请求头含有无法发送的字符，请更新装册后重试。"
     if "401" in text or "unauthorized" in lowered or "invalid_api_key" in lowered:
         return "密钥无效，请核对 API 密钥。"
+    if "403" in text or "forbidden" in lowered:
+        return "模型服务拒绝了请求。请核对密钥、模型名，以及这个模型是否对当前账号开放。"
     if "402" in text or "insufficient" in lowered:
         return "账户余额不足，请到模型服务商处充值。"
     if "404" in text or ("model" in lowered and "not found" in lowered):

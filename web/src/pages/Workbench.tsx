@@ -18,19 +18,22 @@ export function Workbench() {
   }
 
   return (
-    <div className="grid grid-cols-1 lg:grid-cols-12 lg:gap-10">
-      <div className={`${askOpen ? "hidden lg:block" : "block"} lg:col-span-7`}>
+    <div className="grid grid-cols-1 lg:min-h-[calc(100dvh-4.75rem)] lg:grid-cols-12">
+      <div
+        className={`${askOpen ? "hidden lg:block" : "block"} px-4 md:px-6 lg:col-span-7 lg:pl-[max(1.5rem,calc((100vw-1400px)/2+1.5rem))] lg:pr-10`}
+      >
         <QuotePanel onAsk={ask} />
       </div>
-      <div
-        className={`${askOpen ? "block" : "hidden lg:block"} border-rule lg:col-span-5 lg:border-l lg:pl-8`}
+      <aside
+        className={`${askOpen ? "block" : "hidden lg:block"} flex min-h-[calc(100dvh-8rem)] flex-col bg-pane px-4 md:px-6 lg:col-span-5 lg:min-h-0 lg:border-l lg:border-rule lg:px-8`}
+        aria-label="Wiki 问答"
       >
         <AssistantPanel
           quote={quote}
           pendingQuestion={pendingQuestion}
           onPendingConsumed={() => setPendingQuestion(null)}
         />
-      </div>
+      </aside>
     </div>
   );
 }

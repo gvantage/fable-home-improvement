@@ -42,7 +42,7 @@ export function QuotePanel({ onAsk }: QuotePanelProps) {
 
       <div className="flex items-end justify-between gap-4">
         <div>
-          <p className="text-sm text-muted">工册合计</p>
+          <p className="text-sm text-copper">工册合计</p>
           <p className="mt-1 font-mono text-4xl tracking-tight text-copper tabular-nums">
             ¥ {formatMoney(total)}
           </p>

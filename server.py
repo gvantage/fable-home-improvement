@@ -187,11 +187,11 @@ if DIST.exists():
     if assets.exists():
         app.mount("/assets", StaticFiles(directory=assets), name="assets")
 
-    @app.get("/")
+    @app.api_route("/", methods=["GET", "HEAD"])
     def index():
         return FileResponse(DIST / "index.html")
 
-    @app.get("/{full_path:path}")
+    @app.api_route("/{full_path:path}", methods=["GET", "HEAD"])
     def spa(full_path: str):
         if full_path.startswith("api/"):
             raise HTTPException(status_code=404, detail="接口不存在")

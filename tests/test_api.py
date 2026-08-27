@@ -16,6 +16,12 @@ class ApiTests(unittest.TestCase):
         self.assertEqual(response.status_code, 200)
         self.assertIn("装册", response.text)
 
+    def test_spa_accepts_head(self):
+        home = self.client.head("/")
+        self.assertEqual(home.status_code, 200)
+        wiki = self.client.head("/wiki")
+        self.assertEqual(wiki.status_code, 200)
+
     def test_catalog_has_space_categories(self):
         response = self.client.get("/api/catalog")
         self.assertEqual(response.status_code, 200)

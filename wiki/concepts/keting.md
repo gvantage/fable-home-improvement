@@ -1,11 +1,11 @@
 ---
 title: 客厅装修
 created: 2026-08-23
-updated: 2026-08-23
+updated: 2026-08-25
 type: concept
 tags: [客厅, 材料]
 aliases: [客厅12装12不装, 电视墙, 客厅插座]
-sources: [raw/articles/客厅12装12不装.md, raw/articles/第一次装修避坑指南.md, raw/articles/全屋开关插座布局表.md]
+sources: [raw/articles/客厅12装12不装.md, raw/articles/第一次装修避坑指南.md, raw/articles/全屋开关插座布局表.md, raw/articles/瓷砖选购辨别验收与避坑全指南.md, raw/articles/全屋装修与收纳知识整理.md, raw/articles/龚强做与不做细部卡.md]
 ---
 
 客厅求耐看和好处扫，少做网红复杂造型。插座点位见 [[shui-dian]]。
@@ -13,7 +13,7 @@ sources: [raw/articles/客厅12装12不装.md, raw/articles/第一次装修避�
 ## 装与不装
 1. 能打通则打通阳台，少用推拉门把空间割暗。
 2. 简约吸顶灯，少复杂大吊灯。
-3. 浅色砖或通铺提亮；深色砖吸光。过门石容易割裂地面，能通铺就通铺。
+3. 浅色砖或通铺提亮；深色砖吸光。展厅灯好看不等于家里好看，拿小样回家看自然光。过门石容易割裂地面，能通铺就通铺。选砖见 [[cizhuan]]。
 4. 封闭收纳优于开放格（开放格落灰）。吊柜做到顶。
 5. 窗帘盒藏轨道，少罗马杆漏光积灰。窗帘纯色更耐看。
 6. 电视墙乳胶漆即可，少硬包石材造型。
@@ -22,4 +22,5 @@ sources: [raw/articles/客厅12装12不装.md, raw/articles/第一次装修避�
 9. 小户型直排沙发比 L 型少占活动区。
 
 开关尽量与墙同色，深色开关在白墙上像补丁。踢脚优先内嵌瓷砖，少外露易脏或超薄铝条易掉。详见 [[yangtai-menchuang]] 里不做的设计。
+餐边柜/水吧当第二厨房，插座距台面约 150 mm、预留 4 个以上，尺寸见 [[shouna]]。玻璃当点缀，不要整面玻璃门加灯带，见 [[zuo-vs-buzuo]]。
 定制柜投影计价见 [[quanwu-dingzhi]]。

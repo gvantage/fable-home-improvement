@@ -94,7 +94,7 @@ docker compose up -d --build
 
 ## 知识库
 
-共 17 页，目录在 `wiki/index.md`。
+共 20 页，目录在 `wiki/index.md`。
 
 加新资料：
 

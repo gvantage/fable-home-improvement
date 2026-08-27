@@ -45,6 +45,16 @@ docker compose up -d --build
 
 换端口：改 `docker-compose.yml` 里的 `"8000:8000"`。
 
+## 前面加 nginx
+
+不要把 nginx 的 `root` 指到仓库或 `web/dist`。`web/dist` 不进 git，空目录会 **403 Forbidden**。
+
+先让 `python server.py` 或 Docker 听 8000，nginx 只反代。模板：`deploy/nginx.conf`。
+
+宝塔 / 1Panel：站点选 **反向代理**，目标 `http://127.0.0.1:8000`，不要选「静态网站」。
+
+本机打开 **http://127.0.0.1:8000**（必须带端口）。`http://localhost` 走 80，不是这套服务。
+
 ## 方式二：本地生产构建
 
 ```bash
@@ -81,5 +91,6 @@ python server.py
 | 填了密钥仍提示未配置 | 刷新页面；开发模式确认 `python server.py` 已启动 |
 | `env_file` 报错 | 复制 `cp .env.example .env` 后再启动 |
 | 答案对不上新资料 | 把要点写进 `wiki/concepts/`，并在 `index.md` 加条目后重启 |
+| 页面显示 `403 Forbidden`，底部写 nginx | nginx 在当静态站。改成反向代理 `http://127.0.0.1:8000`，见 `deploy/nginx.conf`。不要用 `try_files $uri $uri/` 扫空的 `web/dist` |
 | 页面只有接口、没有界面 | 先 `cd web && npm run build`，确认存在 `web/dist` |
 | 容器里还是旧知识 | 确认 `./wiki` 已挂载；只改 raw 不会生效 |

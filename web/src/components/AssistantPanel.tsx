@@ -30,7 +30,7 @@ export function AssistantPanel({
   llmRef.current = llm;
 
   useEffect(() => {
-    listRef.current?.scrollTo({ top: listRef.current.scrollHeight });
+    listRef.current?.lastElementChild?.scrollIntoView({ block: "nearest" });
   }, [messages, sending]);
 
   useEffect(() => {
@@ -93,15 +93,15 @@ export function AssistantPanel({
   }
 
   return (
-    <section className="flex min-h-[70dvh] flex-col py-6 md:min-h-[calc(100dvh-6rem)] md:py-8">
+    <section className="flex flex-col py-6 md:py-8">
       <div>
-        <p className="text-sm text-muted">助手</p>
-        <h2 className="mt-1 font-serif text-2xl tracking-tight">先查 wiki，再谈价钱</h2>
+        <p className="text-sm text-slate">Wiki 问答</p>
+        <h2 className="mt-1 font-serif text-2xl tracking-tight text-slate">先查 wiki，再谈价钱</h2>
       </div>
 
       <LlmSettingsBar onChange={setLlm} />
 
-      <div ref={listRef} className="mt-6 min-h-0 flex-1 space-y-6 overflow-y-auto pr-1">
+      <div ref={listRef} className="mt-6 space-y-6 pr-1">
         {messages.length === 0 ? (
           <div className="space-y-3">
             <p className="text-sm text-muted">从这些常见问题开始，或点工册里的「问这行」。</p>
@@ -110,7 +110,7 @@ export function AssistantPanel({
                 <button
                   key={question}
                   type="button"
-                  className="cursor-pointer border-b border-rule pb-1 text-left text-sm hover:border-copper hover:text-copper"
+                  className="cursor-pointer border-b border-rule pb-1 text-left text-sm hover:border-slate hover:text-slate"
                   onClick={() => void send(question)}
                 >
                   {question}
@@ -131,7 +131,7 @@ export function AssistantPanel({
                         <Link
                           key={citation.slug}
                           to={`/wiki/${citation.slug}`}
-                          className="cursor-pointer border border-rule px-2 py-1 text-xs text-muted hover:border-copper hover:text-copper"
+                          className="cursor-pointer border border-rule px-2 py-1 text-xs text-muted hover:border-slate hover:text-slate"
                         >
                           {citation.title}
                         </Link>
@@ -185,7 +185,7 @@ export function AssistantPanel({
         />
         <button
           type="submit"
-          className="inline-flex min-h-11 min-w-11 cursor-pointer items-center justify-center bg-copper text-paper transition-colors duration-200 hover:bg-copper-dark disabled:opacity-50"
+          className="inline-flex min-h-11 min-w-11 cursor-pointer items-center justify-center bg-slate text-white transition-colors duration-200 hover:bg-slate-dark disabled:opacity-50"
           disabled={sending || !draft.trim()}
           aria-label="发送"
         >

@@ -45,6 +45,13 @@ class LlmClientTests(unittest.TestCase):
             key.encode("ascii")
             value.encode("latin-1")
 
+    def test_forbidden_error_is_readable(self):
+        from llm_client import _friendly_error
+
+        message = _friendly_error(Exception("Error code: 403 - Forbidden"))
+        self.assertIn("拒绝", message)
+        self.assertNotIn("403", message)
+
     def test_connection_without_key_fails_cleanly(self):
         client = LLMClient()
         client.api_key = ""

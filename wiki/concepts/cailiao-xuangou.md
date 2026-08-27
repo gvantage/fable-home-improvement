@@ -1,11 +1,11 @@
 ---
 title: 材料选购
 created: 2026-08-23
-updated: 2026-08-24
+updated: 2026-08-26
 type: concept
 tags: [材料, 水电, 门窗, 板材, 瓷砖]
 aliases: [主材, 辅材, 不该省钱, 底价清单]
-sources: [raw/articles/装修不该省钱的地方.md, raw/articles/装修部件选择.md, raw/articles/2026装修材料底价清单.md, raw/articles/第一次装修避坑指南.md, raw/articles/瓷砖选购指南.md]
+sources: [raw/articles/装修不该省钱的地方.md, raw/articles/装修部件选择.md, raw/articles/2026装修材料底价清单.md, raw/articles/第一次装修避坑指南.md, raw/articles/瓷砖选购指南.md, raw/articles/瓷砖选购辨别验收与避坑全指南.md, raw/articles/全屋装修与收纳知识整理.md, raw/articles/里可半包31问.md, raw/articles/小李半包准备流程与报价.md, raw/articles/柜体工艺六看验收.md]
 ---
 
 隐蔽和常出水的小件不要省。品牌型号写进 [[zhuangxiu-hetong]]，进场验收。参考单价见 [[yusuan-kanjia]]。
@@ -15,14 +15,16 @@ sources: [raw/articles/装修不该省钱的地方.md, raw/articles/装修部件
 |---|---|---|
 | 水管 | PPR | PVC |
 | 电线 | BV 阻燃铜芯 | 杂牌 BVR |
-| 腻子 | 水性，授权店 | 含胶腻子 |
+| 腻子 | 水性耐水腻子，授权店 | 含胶腻子、普通预拌凑合 |
 | 防水 | 地面柔性、墙面刚性 | 遍数不够 |
 | 角阀 | 全铜 | 不锈钢劣质款 |
 | 地漏 | 全铜或不锈钢 + 防臭 | 铸铁 / PVC |
 | 玻璃胶 | 中性防霉（如瓦克、百得） | 商家赠送易霉胶 |
 | 开关 | 大牌阻燃带保护门 | 杂牌 |
 
-瓷砖备几块同批；调色漆多买一点。开发商窗没问题不必换。选砖看附录和吸水率，见 [[cizhuan]]。
+瓷砖备几块同批，直铺预留 5%–8%、斜铺拼花 8%–12%；收货核批次色号。调色漆多买一点。开发商窗没问题不必换。选砖、店测和全瓷上墙做法见 [[cizhuan]]。
+
+合同附件还应锁品牌规格：板材、水管、电线、防水、乳胶漆（底+面，认优等品）、腻子、石膏板（潮湿区防潮板）、水泥、开关插座。定制柜板厚见 [[quanwu-dingzhi]]。封边写死 PUR / 激光 / EVA，到货看缝和溢胶，见 [[guigui-gongyi]]。窗台石优先石英石、圆弧倒角。
 
 ## 部件做法
 - 转角柜做错层，少做直角死角。

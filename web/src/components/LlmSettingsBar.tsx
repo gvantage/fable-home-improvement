@@ -10,7 +10,7 @@ import {
 } from "../lib/llmSettings";
 
 const inputClass =
-  "w-full border-0 border-b border-rule bg-transparent px-0 py-1.5 text-ink outline-none transition-colors duration-200 focus:border-copper";
+  "w-full border-0 border-b border-rule bg-transparent px-0 py-1.5 text-ink outline-none transition-colors duration-200 focus:border-slate";
 
 type Probe = {
   state: "idle" | "testing" | "ok" | "fail";
@@ -99,7 +99,7 @@ export function LlmSettingsBar({ onChange }: LlmSettingsBarProps) {
                   key={preset.name}
                   type="button"
                   className={`cursor-pointer ${
-                    active ? "text-copper" : "text-muted hover:text-ink"
+                    active ? "text-slate" : "text-muted hover:text-ink"
                   }`}
                   onClick={() =>
                     update({
@@ -156,7 +156,7 @@ export function LlmSettingsBar({ onChange }: LlmSettingsBarProps) {
           <div className="flex items-center justify-between gap-3 pt-1">
             <button
               type="button"
-              className="cursor-pointer text-sm text-copper hover:text-copper-dark disabled:opacity-50"
+              className="cursor-pointer text-sm text-slate hover:text-slate-dark disabled:opacity-50"
               disabled={probe.state === "testing"}
               onClick={() => void probeNow()}
             >

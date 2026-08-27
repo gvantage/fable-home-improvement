@@ -19,7 +19,7 @@ export function WikiIndex() {
   return (
     <article className="py-8 md:py-12">
       <p className="text-sm text-muted">知识</p>
-      <h1 className="mt-2 font-serif text-4xl tracking-tight">十六页装修备忘</h1>
+        <h1 className="mt-2 font-serif text-4xl tracking-tight">二十页装修备忘</h1>
       <p className="mt-4 max-w-[55ch] text-muted">
         问答用的是这些整页，不是切片。先翻目录，再把具体条款带回工册。
       </p>
@@ -48,7 +48,7 @@ function PageGroup({ title, pages }: { title: string; pages: WikiSummary[] }) {
             <li key={page.slug}>
               <Link
                 to={`/wiki/${page.slug}`}
-                className="block cursor-pointer py-4 hover:text-copper"
+                className="block cursor-pointer py-4 hover:text-slate"
               >
                 <p className="font-medium">{page.title}</p>
                 <p className="mt-1 text-sm text-muted">{page.tags.join(" · ")}</p>
